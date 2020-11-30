@@ -1,0 +1,8 @@
+img.change_image{
+    float: left;
+    max-width: 45%;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
