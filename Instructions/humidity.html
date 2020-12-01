@@ -6,11 +6,13 @@
     <title>Latitude Analysis</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
+  <div class="navigation">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.html">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,12 +39,14 @@
             </li>
           </ul>
         </div>
+      </div>
       </nav>
       <div class="container">
         <div class="row">
         
             <div class="col-md-8">
                 <div class="col-md-12">
+                  <div class="humbox">
             
         <h1>Latitude vs. Humidity</h1> <hr>
         <div class="thumbnail">
@@ -51,26 +55,41 @@
         <p>TO BE WRITTEN</p> <br>
         </div>
         </div>
+      </div>
         <div class="col-md-4">
-        <div class="col-md-12">
-        <h2>Visualizations</h2> <hr>
+          <div class="col-md-12">
+            <div class="sidebox" id="figure">
+        <h2>Visualizations</h2> 
+        <hr>
         <div class="row">
             <div class="col-3 col-md-6">
-        <a href="temp.html"><img src="Resources/assets/images/Fig1.png" alt="Max Temp" width="100%"></a>
+              <div class="title">Max Temperature</div>
+              <a href="temp.html">
+                <img src="Resources/assets/images/Fig1.png" alt="Max Temp" width="100%">
+              </a>
             </div>
             <div class="col-3 col-md-6">
-        <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" alt="Cloudiness" width="100%"></a>
+              <div class="title">Cloudiness</div>
+              <a href="cloudiness.html">
+                <img src="Resources/assets/images/Fig3.png" alt="Cloudiness" width="100%">
+              </a>
             </div>
             <div class="col-3 col-md-6">
-        <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" alt="Humidity" width="100%"></a>
+              <div class="title">Humidity</div>
+              <a href="humidity.html">
+                <img src="Resources/assets/images/Fig2.png" alt="Humidity" width="100%">
+              </a>
             </div>
             <div class="col-3 col-md-6">
-        <a href="wind.html"><img src="Resources/assets/images/Fig4.png" alt="Wind Speed" width="100%"></a>
+              <div class="title">Wind Speed</div>
+              <a href="wind.html">
+                <img src="Resources/assets/images/Fig4.png" alt="Wind Speed" width="100%">
+              </a>
             </div>
+          </div>
         </div>
         </div>
         </div>
         </div>
-        
-</body>
-</html>
+        </body>
+        </html>
