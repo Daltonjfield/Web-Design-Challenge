@@ -6,11 +6,13 @@
     <title>Latitude Analysis</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
+  <div class="navigation">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.html">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,6 +39,7 @@
             </li>
           </ul>
         </div>
+        </div>
       </nav>
 <!-- <div class="jumbotron"> -->
 <div class="container">
@@ -44,12 +47,20 @@
 
     <div class="col-md-8">
         <div class="col-md-12">
+          <div class="main">
     
 <h1>Summary: Latitude vs. X</h1> <hr>
 <div class="thumbnail">
 <img src="Resources/assets/images/Fig1.png" class="img-thumbnail float-left" width="50%" alt="Max Temp">
 </div>
-<p>TO BE WRITTEN</p> <br> <p>TO BE WRITTEN</p>
+<p>The purpose of this project was to analyze how weather changes as you get closer to the equator. 
+  To accomplish this analysis, we first pulled data from OpenWeatherMap API to assemble a datset on over 500 cities.</p> 
+<br> 
+<p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. 
+  Factors we look at included: temperature, cloudiness, wind speed, and humidity.
+  This site provides the source data and visualizations created as part of the analysis, 
+  as well as explanations and descriptions of any trends and correlations witnessed.</p>
+</div>
 </div>
 </div>
 <div class="col-md-4">
